@@ -6,7 +6,7 @@ from fastapi_jwt_auth import AuthJWT
 from fastapi_jwt_auth.exceptions import AuthJWTException
 from pydantic import BaseModel
 
-from models.users import Users
+from app.models.users import Users
 
 from mongoengine import connect
 
